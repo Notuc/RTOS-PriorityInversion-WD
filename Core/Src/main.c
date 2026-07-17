@@ -45,65 +45,12 @@ I2C_HandleTypeDef hi2c1;
 
 UART_HandleTypeDef huart2;
 
-/* Definitions for SensorTask */
-osThreadId_t SensorTaskHandle;
-const osThreadAttr_t SensorTask_attributes = {
-  .name = "SensorTask",
-  .stack_size = 512 * 4,
-  .priority = (osPriority_t) osPriorityHigh,
-};
-/* Definitions for WatchdogTask */
-osThreadId_t WatchdogTaskHandle;
-const osThreadAttr_t WatchdogTask_attributes = {
-  .name = "WatchdogTask",
-  .stack_size = 256 * 4,
-  .priority = (osPriority_t) osPriorityRealtime,
-};
-/* Definitions for CommsTask */
-osThreadId_t CommsTaskHandle;
-const osThreadAttr_t CommsTask_attributes = {
-  .name = "CommsTask",
-  .stack_size = 512 * 4,
-  .priority = (osPriority_t) osPriorityAboveNormal,
-};
-/* Definitions for StorageTask */
-osThreadId_t StorageTaskHandle;
-const osThreadAttr_t StorageTask_attributes = {
-  .name = "StorageTask",
-  .stack_size = 512 * 4,
+/* Definitions for Task */
+osThreadId_t TaskHandle;
+const osThreadAttr_t Task_attributes = {
+  .name = "Task",
+  .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityNormal,
-};
-/* Definitions for DisplayTask */
-osThreadId_t DisplayTaskHandle;
-const osThreadAttr_t DisplayTask_attributes = {
-  .name = "DisplayTask",
-  .stack_size = 384 * 4,
-  .priority = (osPriority_t) osPriorityBelowNormal,
-};
-/* Definitions for xDisplayQueue */
-osMessageQueueId_t xDisplayQueueHandle;
-const osMessageQueueAttr_t xDisplayQueue_attributes = {
-  .name = "xDisplayQueue"
-};
-/* Definitions for xStorageQueue */
-osMessageQueueId_t xStorageQueueHandle;
-const osMessageQueueAttr_t xStorageQueue_attributes = {
-  .name = "xStorageQueue"
-};
-/* Definitions for xCommsQueue */
-osMessageQueueId_t xCommsQueueHandle;
-const osMessageQueueAttr_t xCommsQueue_attributes = {
-  .name = "xCommsQueue"
-};
-/* Definitions for I2CBusMutex */
-osMutexId_t I2CBusMutexHandle;
-const osMutexAttr_t I2CBusMutex_attributes = {
-  .name = "I2CBusMutex"
-};
-/* Definitions for SPIBusMutex */
-osMutexId_t SPIBusMutexHandle;
-const osMutexAttr_t SPIBusMutex_attributes = {
-  .name = "SPIBusMutex"
 };
 /* USER CODE BEGIN PV */
 
@@ -114,11 +61,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_USART2_UART_Init(void);
-void StartSensorTask(void *argument);
-void StartWatchdogTask(void *argument);
-void StartCommsTask(void *argument);
-void StartStorageTask(void *argument);
-void StartDisplayTask(void *argument);
+void StartTask(void *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -166,12 +109,6 @@ int main(void)
 
   /* Init scheduler */
   osKernelInitialize();
-  /* Create the mutex(es) */
-  /* creation of I2CBusMutex */
-  I2CBusMutexHandle = osMutexNew(&I2CBusMutex_attributes);
-
-  /* creation of SPIBusMutex */
-  SPIBusMutexHandle = osMutexNew(&SPIBusMutex_attributes);
 
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
@@ -185,35 +122,13 @@ int main(void)
   /* start timers, add new ones, ... */
   /* USER CODE END RTOS_TIMERS */
 
-  /* Create the queue(s) */
-  /* creation of xDisplayQueue */
-  xDisplayQueueHandle = osMessageQueueNew (16, sizeof(uint16_t), &xDisplayQueue_attributes);
-
-  /* creation of xStorageQueue */
-  xStorageQueueHandle = osMessageQueueNew (16, sizeof(uint16_t), &xStorageQueue_attributes);
-
-  /* creation of xCommsQueue */
-  xCommsQueueHandle = osMessageQueueNew (16, sizeof(uint16_t), &xCommsQueue_attributes);
-
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
-  /* creation of SensorTask */
-  SensorTaskHandle = osThreadNew(StartSensorTask, NULL, &SensorTask_attributes);
-
-  /* creation of WatchdogTask */
-  WatchdogTaskHandle = osThreadNew(StartWatchdogTask, NULL, &WatchdogTask_attributes);
-
-  /* creation of CommsTask */
-  CommsTaskHandle = osThreadNew(StartCommsTask, NULL, &CommsTask_attributes);
-
-  /* creation of StorageTask */
-  StorageTaskHandle = osThreadNew(StartStorageTask, NULL, &StorageTask_attributes);
-
-  /* creation of DisplayTask */
-  DisplayTaskHandle = osThreadNew(StartDisplayTask, NULL, &DisplayTask_attributes);
+  /* creation of Task */
+  TaskHandle = osThreadNew(StartTask, NULL, &Task_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -403,14 +318,14 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE END 4 */
 
-/* USER CODE BEGIN Header_StartSensorTask */
+/* USER CODE BEGIN Header_StartTask */
 /**
-  * @brief  Function implementing the SensorTask thread.
+  * @brief  Function implementing the Task thread.
   * @param  argument: Not used
   * @retval None
   */
-/* USER CODE END Header_StartSensorTask */
-void StartSensorTask(void *argument)
+/* USER CODE END Header_StartTask */
+void StartTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
@@ -419,78 +334,6 @@ void StartSensorTask(void *argument)
     osDelay(1);
   }
   /* USER CODE END 5 */
-}
-
-/* USER CODE BEGIN Header_StartWatchdogTask */
-/**
-* @brief Function implementing the WatchdogTask thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_StartWatchdogTask */
-void StartWatchdogTask(void *argument)
-{
-  /* USER CODE BEGIN StartWatchdogTask */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END StartWatchdogTask */
-}
-
-/* USER CODE BEGIN Header_StartCommsTask */
-/**
-* @brief Function implementing the CommsTask thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_StartCommsTask */
-void StartCommsTask(void *argument)
-{
-  /* USER CODE BEGIN StartCommsTask */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END StartCommsTask */
-}
-
-/* USER CODE BEGIN Header_StartStorageTask */
-/**
-* @brief Function implementing the StorageTask thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_StartStorageTask */
-void StartStorageTask(void *argument)
-{
-  /* USER CODE BEGIN StartStorageTask */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END StartStorageTask */
-}
-
-/* USER CODE BEGIN Header_StartDisplayTask */
-/**
-* @brief Function implementing the DisplayTask thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_StartDisplayTask */
-void StartDisplayTask(void *argument)
-{
-  /* USER CODE BEGIN StartDisplayTask */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END StartDisplayTask */
 }
 
 /**
