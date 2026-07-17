@@ -95,6 +95,16 @@ osMessageQueueId_t xCommsQueueHandle;
 const osMessageQueueAttr_t xCommsQueue_attributes = {
   .name = "xCommsQueue"
 };
+/* Definitions for I2CBusMutex */
+osMutexId_t I2CBusMutexHandle;
+const osMutexAttr_t I2CBusMutex_attributes = {
+  .name = "I2CBusMutex"
+};
+/* Definitions for SPIBusMutex */
+osMutexId_t SPIBusMutexHandle;
+const osMutexAttr_t SPIBusMutex_attributes = {
+  .name = "SPIBusMutex"
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -156,6 +166,12 @@ int main(void)
 
   /* Init scheduler */
   osKernelInitialize();
+  /* Create the mutex(es) */
+  /* creation of I2CBusMutex */
+  I2CBusMutexHandle = osMutexNew(&I2CBusMutex_attributes);
+
+  /* creation of SPIBusMutex */
+  SPIBusMutexHandle = osMutexNew(&SPIBusMutex_attributes);
 
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
