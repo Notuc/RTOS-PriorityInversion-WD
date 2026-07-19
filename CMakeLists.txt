@@ -22,6 +22,8 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS ON)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Define the build type
 if(NOT CMAKE_BUILD_TYPE)
@@ -39,7 +41,7 @@ project(${CMAKE_PROJECT_NAME})
 message("Build type: " ${CMAKE_BUILD_TYPE})
 
 # Enable CMake support for ASM and C languages
-enable_language(C ASM)
+enable_language(C CXX ASM)
 set(ARM_SYSROOT "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi")
 
 # Create an executable object type
@@ -80,4 +82,24 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
 
     # Add user defined libraries
+)
+
+# Your application code is C++
+file(GLOB_RECURSE CXX_SOURCES
+    "App/*.cpp"
+)
+
+set(C_SUPPORT_SOURCES
+    "App/Src/cpp_support.c"
+)
+
+# Add sources to executable
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    ${CXX_SOURCES}
+    # Add user sources here
+)
+
+target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+  App/Inc
+  App/Src
 )

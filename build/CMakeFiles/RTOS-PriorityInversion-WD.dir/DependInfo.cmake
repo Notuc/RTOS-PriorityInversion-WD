@@ -21,6 +21,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Core/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
@@ -29,6 +31,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/include"
   )
 
 # The set of dependency files which are needed:
@@ -40,6 +43,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/stm32f4xx_it.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/stm32f4xx_it.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/syscalls.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/syscalls.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/sysmem.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/sysmem.c.obj.d"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/DisplayTask.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj.d"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj.d"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/Task.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj.d"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

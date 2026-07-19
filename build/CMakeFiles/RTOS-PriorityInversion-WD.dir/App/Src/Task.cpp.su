@@ -1,0 +1,2 @@
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/Task.cpp:3:1:Task::Task(const char*, uint32_t, osPriority_t)	40	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/Task.cpp:11:6:static void Task::trampoline(void*)	16	static

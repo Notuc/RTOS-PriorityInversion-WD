@@ -155,6 +155,102 @@ FreeRTOS/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build
 .PHONY : FreeRTOS/fast
 
+App/Src/DisplayTask.obj: App/Src/DisplayTask.cpp.obj
+.PHONY : App/Src/DisplayTask.obj
+
+# target to build an object file
+App/Src/DisplayTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj
+.PHONY : App/Src/DisplayTask.cpp.obj
+
+App/Src/DisplayTask.i: App/Src/DisplayTask.cpp.i
+.PHONY : App/Src/DisplayTask.i
+
+# target to preprocess a source file
+App/Src/DisplayTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.i
+.PHONY : App/Src/DisplayTask.cpp.i
+
+App/Src/DisplayTask.s: App/Src/DisplayTask.cpp.s
+.PHONY : App/Src/DisplayTask.s
+
+# target to generate assembly for a file
+App/Src/DisplayTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.s
+.PHONY : App/Src/DisplayTask.cpp.s
+
+App/Src/SensorTask.obj: App/Src/SensorTask.cpp.obj
+.PHONY : App/Src/SensorTask.obj
+
+# target to build an object file
+App/Src/SensorTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj
+.PHONY : App/Src/SensorTask.cpp.obj
+
+App/Src/SensorTask.i: App/Src/SensorTask.cpp.i
+.PHONY : App/Src/SensorTask.i
+
+# target to preprocess a source file
+App/Src/SensorTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.i
+.PHONY : App/Src/SensorTask.cpp.i
+
+App/Src/SensorTask.s: App/Src/SensorTask.cpp.s
+.PHONY : App/Src/SensorTask.s
+
+# target to generate assembly for a file
+App/Src/SensorTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.s
+.PHONY : App/Src/SensorTask.cpp.s
+
+App/Src/Task.obj: App/Src/Task.cpp.obj
+.PHONY : App/Src/Task.obj
+
+# target to build an object file
+App/Src/Task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj
+.PHONY : App/Src/Task.cpp.obj
+
+App/Src/Task.i: App/Src/Task.cpp.i
+.PHONY : App/Src/Task.i
+
+# target to preprocess a source file
+App/Src/Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.i
+.PHONY : App/Src/Task.cpp.i
+
+App/Src/Task.s: App/Src/Task.cpp.s
+.PHONY : App/Src/Task.s
+
+# target to generate assembly for a file
+App/Src/Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.s
+.PHONY : App/Src/Task.cpp.s
+
+App/Src/app_main.obj: App/Src/app_main.cpp.obj
+.PHONY : App/Src/app_main.obj
+
+# target to build an object file
+App/Src/app_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj
+.PHONY : App/Src/app_main.cpp.obj
+
+App/Src/app_main.i: App/Src/app_main.cpp.i
+.PHONY : App/Src/app_main.i
+
+# target to preprocess a source file
+App/Src/app_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.i
+.PHONY : App/Src/app_main.cpp.i
+
+App/Src/app_main.s: App/Src/app_main.cpp.s
+.PHONY : App/Src/app_main.s
+
+# target to generate assembly for a file
+App/Src/app_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.s
+.PHONY : App/Src/app_main.cpp.s
+
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
@@ -342,6 +438,18 @@ help:
 	@echo "... FreeRTOS"
 	@echo "... RTOS-PriorityInversion-WD"
 	@echo "... STM32_Drivers"
+	@echo "... App/Src/DisplayTask.obj"
+	@echo "... App/Src/DisplayTask.i"
+	@echo "... App/Src/DisplayTask.s"
+	@echo "... App/Src/SensorTask.obj"
+	@echo "... App/Src/SensorTask.i"
+	@echo "... App/Src/SensorTask.s"
+	@echo "... App/Src/Task.obj"
+	@echo "... App/Src/Task.i"
+	@echo "... App/Src/Task.s"
+	@echo "... App/Src/app_main.obj"
+	@echo "... App/Src/app_main.i"
+	@echo "... App/Src/app_main.s"
 	@echo "... Core/Src/freertos.obj"
 	@echo "... Core/Src/freertos.i"
 	@echo "... Core/Src/freertos.s"
