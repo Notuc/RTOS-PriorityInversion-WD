@@ -4,12 +4,34 @@ Archive member included to satisfy reference by file (symbol)
                               CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj (operator delete(void*, unsigned int))
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
                               /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_ops.o) (operator delete(void*))
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+                              CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj (cosf)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+                              CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj (sinf)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o) (__kernel_cosf)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o) (__kernel_sinf)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o) (__ieee754_rem_pio2f)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o) (fabsf)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o) (floorf)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o) (scalbnf)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+                              CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj (__aeabi_l2f)
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+                              CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj (__aeabi_ldivmod)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
                               cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj (__aeabi_uldivmod)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
-                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+                              /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-exit.o)
                               /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-malloc.o)
@@ -37,7 +59,7 @@ Archive member included to satisfy reference by file (symbol)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-impure.o)
                               cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj (_impure_ptr)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memcpy-stub.o)
-                              cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj (memcpy)
+                              CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj (memcpy)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-freer.o)
                               /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-malloc.o) (_free_r)
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-stdio.o)
@@ -756,6 +778,446 @@ Discarded input sections
  .text          0x00000000       0x14 CMakeFiles/RTOS-PriorityInversion-WD.dir/startup_stm32f446xx.s.obj
  .data          0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/startup_stm32f446xx.s.obj
  .bss           0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/startup_stm32f446xx.s.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_Reset
+                0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_WriteCommand
+                0x00000000       0x30 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_WriteData
+                0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .bss.SSD1306_Buffer
+                0x00000000      0x400 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .bss.SSD1306   0x00000000        0x6 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_FillBuffer
+                0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_Init
+                0x00000000       0xd4 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_Fill
+                0x00000000       0x30 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_UpdateScreen
+                0x00000000       0x50 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_DrawPixel
+                0x00000000       0xa4 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_WriteChar
+                0x00000000      0x124 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_WriteString
+                0x00000000       0x4c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_SetCursor
+                0x00000000       0x30 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_Line
+                0x00000000       0xdc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_Polyline
+                0x00000000       0x74 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_DegToRad
+                0x00000000       0x28 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_NormalizeTo0_360
+                0x00000000       0x4c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_DrawArc
+                0x00000000      0x1d0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_DrawArcWithRadiusLine
+                0x00000000      0x280 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_DrawCircle
+                0x00000000      0x10e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_FillCircle
+                0x00000000       0xe6 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_DrawRectangle
+                0x00000000       0x6e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_FillRectangle
+                0x00000000       0x9c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_InvertRectangle
+                0x00000000      0x178 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_DrawBitmap
+                0x00000000       0xb6 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_SetContrast
+                0x00000000       0x26 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_SetDisplayOn
+                0x00000000       0x3c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .text.ssd1306_GetDisplayOn
+                0x00000000       0x14 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .rodata.CIRCLE_APPROXIMATION_SEGMENTS.0
+                0x00000000        0x1 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_info    0x00000000     0x128f CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_abbrev  0x00000000      0x357 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_aranges
+                0x00000000       0xe8 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_rnglists
+                0x00000000       0xb4 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x2fe CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0xaea CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x7b CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x2a1 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000    0x1675e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000     0x3693 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0xca5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x9e9 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x115 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x1a0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x16d CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x287 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x5f CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x236 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x132 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x29c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x1b5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x127 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0xe8 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x89 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x8ed CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x53 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x2aa CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x126 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x40 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x364 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x29 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_line    0x00000000     0x10e8 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_str     0x00000000    0xcf176 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .debug_frame   0x00000000      0x3e4 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font7x10
+                0x00000000      0x76c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font11x18
+                0x00000000      0xd5c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font16x26
+                0x00000000     0x134c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font6x8
+                0x00000000      0x5f0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font16x24
+                0x00000000     0x11d0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font16x15
+                0x00000000      0xb22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.char_width
+                0x00000000       0x5f CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font_6x8
+                0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font_7x10
+                0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font_11x18
+                0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font_16x26
+                0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font_16x24
+                0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .rodata.Font_16x15
+                0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_info    0x00000000      0x2a4 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_abbrev  0x00000000       0xcf CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x23d CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0xaea CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x7b CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x2a1 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000    0x1675e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000     0x3693 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0xca5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x9e9 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x115 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x1a0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x16d CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x287 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x5f CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x236 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x132 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x29c CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x1b5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x127 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0xe8 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x89 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x8ed CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x53 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x2aa CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000      0x126 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_macro   0x00000000       0x40 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_line    0x00000000      0x797 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .debug_str     0x00000000    0xcb7bf CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .text.BME280_ParseCalib
+                0x00000000      0x1e2 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .text.BME280_Init
+                0x00000000      0x156 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .text.BME280_ReadAll
+                0x00000000      0x7a0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_info    0x00000000      0x9f5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_abbrev  0x00000000      0x1a5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_aranges
+                0x00000000       0x30 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_rnglists
+                0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x205 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0xaea CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x2a1 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000    0x1675e CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000     0x3693 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0xca5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x9e9 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x115 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x1a0 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0xa5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x16d CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x287 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x5f CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x236 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x132 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x29c CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x1b5 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x127 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0xe8 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x89 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x8ed CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x53 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x2aa CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000      0x126 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_macro   0x00000000       0x4c CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_line    0x00000000      0xaa6 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_str     0x00000000    0xcba80 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .debug_frame   0x00000000       0x94 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
  .group         0x00000000       0x14 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj
  .group         0x00000000       0x14 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj
  .group         0x00000000        0xc CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj
@@ -4196,6 +4658,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x1e5 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .debug_macro   0x00000000       0x16 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .debug_macro   0x00000000       0x29 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_macro   0x00000000       0x16 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .debug_macro   0x00000000       0x3c cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .debug_macro   0x00000000      0x103 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
  .debug_macro   0x00000000       0x6a cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
@@ -5032,6 +5495,96 @@ Discarded input sections
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(del_op.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .text.cosf     0x00000000       0x70 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .debug_frame   0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_cos.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .text.sinf     0x00000000       0x74 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .debug_frame   0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_sin.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .text.__kernel_cosf
+                0x00000000      0x104 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .debug_frame   0x00000000       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_cos.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .text.__kernel_sinf
+                0x00000000       0x90 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .debug_frame   0x00000000       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_sin.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .text.__ieee754_rem_pio2f
+                0x00000000      0x26c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.npio2_hw
+                0x00000000       0x80 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x00000000      0x318 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000       0x38 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-ef_rem_pio2.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .text.fabsf    0x00000000       0x10 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .debug_frame   0x00000000       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_fabs.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .text.__kernel_rem_pio2f
+                0x00000000      0x698 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.PIo2   0x00000000       0x2c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x00000000        0xc /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .debug_frame   0x00000000       0x5c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-kf_rem_pio2.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .text.floorf   0x00000000       0x94 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .debug_frame   0x00000000       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_floor.o)
+ .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .text.scalbnf  0x00000000       0xdc /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .debug_frame   0x00000000       0x20 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .ARM.attributes
+                0x00000000       0x34 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(libm_a-sf_scalbn.o)
+ .text          0x00000000      0x21c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+ .debug_line_str
+                0x00000000       0xd7 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000000       0x4c /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000000       0x22 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_addsubsf3.o)
+ .text          0x00000000       0xa0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line_str
+                0x00000000       0xd2 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x00000000       0x44 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x00000000       0x22 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
@@ -5251,6 +5804,9 @@ LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/stm32f4xx_hal_timebase_ti
 LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/sysmem.c.obj
 LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/syscalls.c.obj
 LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/startup_stm32f446xx.s.obj
+LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
 LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj
 LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj
 LOAD CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj
@@ -6524,7 +7080,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x000012cc       0x5d cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 
-.debug_macro    0x00000000    0x26c62
+.debug_macro    0x00000000    0x26c4c
  .debug_macro   0x00000000      0x33e CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/main.c.obj
  .debug_macro   0x0000033e      0xaea CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/main.c.obj
  .debug_macro   0x00000e28      0x2a1 CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/main.c.obj
@@ -6626,15 +7182,14 @@ LOAD linker stubs
  .debug_macro   0x000259eb      0x1e8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_macro   0x00025bd3      0x18a cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
  .debug_macro   0x00025d5d      0x214 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_macro   0x00025f71       0x16 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_macro   0x00025f87      0x27d cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_macro   0x00026204       0x10 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_macro   0x00026214      0x1df cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_macro   0x000263f3      0x3dc cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x000267cf       0x8d cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x0002685c       0x22 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x0002687e      0x1b1 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_macro   0x00026a2f      0x233 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_macro   0x00025f71      0x27d cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_macro   0x000261ee       0x10 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_macro   0x000261fe      0x1df cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_macro   0x000263dd      0x3dc cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x000267b9       0x8d cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x00026846       0x22 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x00026868      0x1b1 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_macro   0x00026a19      0x233 cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 
 .debug_line     0x00000000    0x1c70f
  .debug_line    0x00000000      0xc0e CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/main.c.obj

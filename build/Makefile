@@ -251,6 +251,30 @@ App/Src/app_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.s
 .PHONY : App/Src/app_main.cpp.s
 
+Core/Src/bme280.obj: Core/Src/bme280.c.obj
+.PHONY : Core/Src/bme280.obj
+
+# target to build an object file
+Core/Src/bme280.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+.PHONY : Core/Src/bme280.c.obj
+
+Core/Src/bme280.i: Core/Src/bme280.c.i
+.PHONY : Core/Src/bme280.i
+
+# target to preprocess a source file
+Core/Src/bme280.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.i
+.PHONY : Core/Src/bme280.c.i
+
+Core/Src/bme280.s: Core/Src/bme280.c.s
+.PHONY : Core/Src/bme280.s
+
+# target to generate assembly for a file
+Core/Src/bme280.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.s
+.PHONY : Core/Src/bme280.c.s
+
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
@@ -419,6 +443,54 @@ Core/Src/sysmem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/sysmem.c.s
 .PHONY : Core/Src/sysmem.c.s
 
+Drivers/oled/ssd1306.obj: Drivers/oled/ssd1306.c.obj
+.PHONY : Drivers/oled/ssd1306.obj
+
+# target to build an object file
+Drivers/oled/ssd1306.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
+.PHONY : Drivers/oled/ssd1306.c.obj
+
+Drivers/oled/ssd1306.i: Drivers/oled/ssd1306.c.i
+.PHONY : Drivers/oled/ssd1306.i
+
+# target to preprocess a source file
+Drivers/oled/ssd1306.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.i
+.PHONY : Drivers/oled/ssd1306.c.i
+
+Drivers/oled/ssd1306.s: Drivers/oled/ssd1306.c.s
+.PHONY : Drivers/oled/ssd1306.s
+
+# target to generate assembly for a file
+Drivers/oled/ssd1306.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.s
+.PHONY : Drivers/oled/ssd1306.c.s
+
+Drivers/oled/ssd1306_fonts.obj: Drivers/oled/ssd1306_fonts.c.obj
+.PHONY : Drivers/oled/ssd1306_fonts.obj
+
+# target to build an object file
+Drivers/oled/ssd1306_fonts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
+.PHONY : Drivers/oled/ssd1306_fonts.c.obj
+
+Drivers/oled/ssd1306_fonts.i: Drivers/oled/ssd1306_fonts.c.i
+.PHONY : Drivers/oled/ssd1306_fonts.i
+
+# target to preprocess a source file
+Drivers/oled/ssd1306_fonts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.i
+.PHONY : Drivers/oled/ssd1306_fonts.c.i
+
+Drivers/oled/ssd1306_fonts.s: Drivers/oled/ssd1306_fonts.c.s
+.PHONY : Drivers/oled/ssd1306_fonts.s
+
+# target to generate assembly for a file
+Drivers/oled/ssd1306_fonts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.s
+.PHONY : Drivers/oled/ssd1306_fonts.c.s
+
 startup_stm32f446xx.obj: startup_stm32f446xx.s.obj
 .PHONY : startup_stm32f446xx.obj
 
@@ -450,6 +522,9 @@ help:
 	@echo "... App/Src/app_main.obj"
 	@echo "... App/Src/app_main.i"
 	@echo "... App/Src/app_main.s"
+	@echo "... Core/Src/bme280.obj"
+	@echo "... Core/Src/bme280.i"
+	@echo "... Core/Src/bme280.s"
 	@echo "... Core/Src/freertos.obj"
 	@echo "... Core/Src/freertos.i"
 	@echo "... Core/Src/freertos.s"
@@ -471,6 +546,12 @@ help:
 	@echo "... Core/Src/sysmem.obj"
 	@echo "... Core/Src/sysmem.i"
 	@echo "... Core/Src/sysmem.s"
+	@echo "... Drivers/oled/ssd1306.obj"
+	@echo "... Drivers/oled/ssd1306.i"
+	@echo "... Drivers/oled/ssd1306.s"
+	@echo "... Drivers/oled/ssd1306_fonts.obj"
+	@echo "... Drivers/oled/ssd1306_fonts.i"
+	@echo "... Drivers/oled/ssd1306_fonts.s"
 	@echo "... startup_stm32f446xx.obj"
 .PHONY : help
 

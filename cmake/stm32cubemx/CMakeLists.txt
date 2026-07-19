@@ -30,6 +30,9 @@ set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/sysmem.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/syscalls.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../startup_stm32f446xx.s
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/oled/ssd1306.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/oled/ssd1306_fonts.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/bme280.c
 )
 
 # STM32 HAL/LL Drivers
