@@ -1,6 +1,6 @@
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:Task::~Task()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:virtual Task::~Task()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/DisplayTask.cpp:13:6:virtual void DisplayTask::run()	32	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/DisplayTask.cpp:27:6:void DisplayTask::renderOLED(const SensorReading_t&)	56	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/DisplayTask.cpp:28:6:void DisplayTask::renderOLED(const SensorReading_t&)	56	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/DisplayTask.hpp:14:11:DisplayTask::~DisplayTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/DisplayTask.hpp:14:11:virtual DisplayTask::~DisplayTask()	16	static

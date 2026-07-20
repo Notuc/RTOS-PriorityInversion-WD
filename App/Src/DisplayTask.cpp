@@ -11,9 +11,10 @@
 #define REFRESH_RATE_MS 250 // 4 Hz
 
 void DisplayTask::run() {
+  ssd1306_Init();
+
   for (;;) {
     SensorReading_t r{};
-    ssd1306_Init();
     ssd1306_Fill(Black);
 
     // Peek — item stays in queue, no data lost
@@ -27,24 +28,27 @@ void DisplayTask::run() {
 void DisplayTask::renderOLED(const SensorReading_t &reading) {
   char buf[32];
 
-  // Clearing the Screen
   ssd1306_Fill(Black);
 
-  // temperature at top
+  // Line 1 — y=0, top of screen
   ssd1306_SetCursor(0, 0);
   snprintf(buf, sizeof(buf), "Temp: %.1f C", reading.temperature);
-  ssd1306_WriteString(buf, Font_7x10, White);
+  ssd1306_WriteString(buf, Font_6x8, White);
 
-  // Pressure in the middle
-  ssd1306_SetCursor(0, 22);
-  snprintf(buf, sizeof(buf), "Pres: %.1f C", reading.pressure);
-  ssd1306_WriteString(buf, Font_7x10, White);
+  // Line 2 — y=20, middle
+  ssd1306_SetCursor(0, 20);
+  snprintf(buf, sizeof(buf), "Pres:%.1f hPa", reading.pressure);
+  ssd1306_WriteString(buf, Font_6x8, White);
 
-  // Humidity at Bottom
-  ssd1306_SetCursor(0, 44);
-  snprintf(buf, sizeof(buf), "Pres: %.1f C", reading.pressure);
-  ssd1306_WriteString(buf, Font_7x10, White);
+  // Line 3 — y=40, lower
+  ssd1306_SetCursor(0, 40);
+  snprintf(buf, sizeof(buf), "Humi: %.1f %%", reading.humidity);
+  ssd1306_WriteString(buf, Font_6x8, White);
 
-  // Push to screen;
+  // Line 4 — y=54, bottom — small status indicator
+  ssd1306_SetCursor(0, 54);
+  snprintf(buf, sizeof(buf), "T:%lums", reading.timestamp_ms);
+  ssd1306_WriteString(buf, Font_6x8, White);
+
   ssd1306_UpdateScreen();
-};
+}
