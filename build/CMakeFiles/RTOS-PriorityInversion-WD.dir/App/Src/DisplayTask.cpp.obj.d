@@ -34,4 +34,42 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj: \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/app_main.hpp \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306_conf.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Core/Inc/stm32f4xx_hal_conf.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm4.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_version.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_compiler.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_gcc.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Include/mpu_armv7.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306_fonts.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h

@@ -1,11 +1,12 @@
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:11:16:tskTaskControlBlock* Task::handle() const	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:Task::~Task()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:virtual Task::~Task()	16	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:10:1:SensorTask::SensorTask()	24	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:15:13:static SensorTask& SensorTask::getInstance()	4	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:22:6:virtual void SensorTask::run()	32	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:31:6:void SensorTask::postToQueues(const SensorReading_t&)	16	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:35:6:void SensorTask::onDMAComplete()	24	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:42:17:void HAL_I2C_MasterRxCpltCallback(I2C_HandleTypeDef*)	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:11:1:SensorTask::SensorTask()	24	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:16:13:static SensorTask& SensorTask::getInstance()	4	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:23:6:virtual void SensorTask::run()	32	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:32:6:void SensorTask::readBME280(SensorReading_t&)	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:39:6:void SensorTask::postToQueues(const SensorReading_t&)	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:43:6:void SensorTask::onDMAComplete()	24	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:50:17:void HAL_I2C_MasterRxCpltCallback(I2C_HandleTypeDef*)	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp:7:7:SensorTask::~SensorTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp:7:7:virtual SensorTask::~SensorTask()	16	static

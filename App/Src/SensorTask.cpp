@@ -1,4 +1,5 @@
 #include "SensorTask.hpp"
+#include "SensorReading.hpp"
 #include "app_main.hpp" // queue handles
 #include "cmsis_os.h"
 #include "queue.h"
@@ -27,6 +28,13 @@ void SensorTask::run() {
     vTaskDelay(pdMS_TO_TICKS(SAMPLE_RATE_MS));
   }
 }
+
+void SensorTask::readBME280(SensorReading_t &out) {
+  out.temperature = 25.0f;
+  out.pressure = 1013.0f;
+  out.humidity = 50.0f;
+  out.timestamp_ms = xTaskGetTickCount();
+};
 
 void SensorTask::postToQueues(const SensorReading_t &r) {
   xQueueOverwrite(xDisplayQueue, &r); // always latest

@@ -23,6 +23,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Core/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"

@@ -102,4 +102,5 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
   App/Inc
   App/Src
+  Drivers/OLED
 )
