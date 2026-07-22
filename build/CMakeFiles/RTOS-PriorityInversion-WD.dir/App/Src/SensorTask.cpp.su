@@ -4,9 +4,9 @@
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:18:1:SensorTask::SensorTask()	24	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:23:13:static SensorTask& SensorTask::getInstance()	4	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:30:6:virtual void SensorTask::run()	32	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:41:6:void SensorTask::readBME280(SensorReading_t&)	24	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:55:6:void SensorTask::postToQueues(const SensorReading_t&)	16	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:59:6:void SensorTask::onDMAComplete()	24	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:66:17:void HAL_I2C_MasterRxCpltCallback(I2C_HandleTypeDef*)	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:43:6:bool SensorTask::readBME280(SensorReading_t&)	24	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:53:6:void SensorTask::postToQueues(const SensorReading_t&)	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:58:6:void SensorTask::onDMAComplete()	24	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp:65:17:void HAL_I2C_MasterRxCpltCallback(I2C_HandleTypeDef*)	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp:7:7:SensorTask::~SensorTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp:7:7:virtual SensorTask::~SensorTask()	16	static

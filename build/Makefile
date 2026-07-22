@@ -155,6 +155,30 @@ FreeRTOS/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build.make cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/build
 .PHONY : FreeRTOS/fast
 
+App/Src/CommsTask.obj: App/Src/CommsTask.cpp.obj
+.PHONY : App/Src/CommsTask.obj
+
+# target to build an object file
+App/Src/CommsTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj
+.PHONY : App/Src/CommsTask.cpp.obj
+
+App/Src/CommsTask.i: App/Src/CommsTask.cpp.i
+.PHONY : App/Src/CommsTask.i
+
+# target to preprocess a source file
+App/Src/CommsTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.i
+.PHONY : App/Src/CommsTask.cpp.i
+
+App/Src/CommsTask.s: App/Src/CommsTask.cpp.s
+.PHONY : App/Src/CommsTask.s
+
+# target to generate assembly for a file
+App/Src/CommsTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.s
+.PHONY : App/Src/CommsTask.cpp.s
+
 App/Src/DisplayTask.obj: App/Src/DisplayTask.cpp.obj
 .PHONY : App/Src/DisplayTask.obj
 
@@ -510,6 +534,9 @@ help:
 	@echo "... FreeRTOS"
 	@echo "... RTOS-PriorityInversion-WD"
 	@echo "... STM32_Drivers"
+	@echo "... App/Src/CommsTask.obj"
+	@echo "... App/Src/CommsTask.i"
+	@echo "... App/Src/CommsTask.s"
 	@echo "... App/Src/DisplayTask.obj"
 	@echo "... App/Src/DisplayTask.i"
 	@echo "... App/Src/DisplayTask.s"

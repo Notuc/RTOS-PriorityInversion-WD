@@ -20,6 +20,6 @@ protected:
 private:
   SemaphoreHandle_t i2cMutex_;
 
-  void readBME280(SensorReading_t &out);
+  bool readBME280(SensorReading_t &out);
   void postToQueues(const SensorReading_t &reading);
 };

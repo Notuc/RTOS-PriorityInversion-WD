@@ -1,8 +1,7 @@
-CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/app_main.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
- /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj: \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/CommsTask.cpp \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorReading.hpp \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
@@ -10,6 +9,9 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Core/Inc/FreeRTOSConfig.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
@@ -26,14 +28,9 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorReading.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Core/Inc/stm32f4xx_hal_conf.h \
@@ -65,9 +62,12 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/DisplayTask.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/app_main.hpp \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Core/Inc/main.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h

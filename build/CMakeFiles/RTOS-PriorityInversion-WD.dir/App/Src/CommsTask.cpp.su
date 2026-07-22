@@ -1,0 +1,7 @@
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:Task::~Task()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:virtual Task::~Task()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/CommsTask.cpp:9:6:virtual void CommsTask::run()	32	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/CommsTask.cpp:17:6:void CommsTask::transmit(const SensorReading_t&)	56	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/CommsTask.cpp:23:9:uint8_t CommsTask::serialise(const SensorReading_t&, uint8_t*)	64	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp:8:7:CommsTask::~CommsTask()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp:8:7:virtual CommsTask::~CommsTask()	16	static

@@ -29,31 +29,30 @@ SensorTask &SensorTask::getInstance() {
 
 void SensorTask::run() {
   BME280_Init(&bme280, &hi2c1, BME280_I2C_ADDR_PRIMARY);
-  vTaskDelay(pdMS_TO_TICKS(100)); // let sensor stabilise after init
-                                  //
+  vTaskDelay(pdMS_TO_TICKS(100));
+
   for (;;) {
     SensorReading_t reading{};
-    readBME280(reading);
-    postToQueues(reading);
+    if (readBME280(reading)) {
+      postToQueues(reading);
+    }
     vTaskDelay(pdMS_TO_TICKS(SAMPLE_RATE_MS));
   }
 }
-void SensorTask::readBME280(SensorReading_t &out) {
+
+bool SensorTask::readBME280(SensorReading_t &out) {
   HAL_StatusTypeDef status =
       BME280_ReadAll(&bme280, &out.temperature, &out.pressure, &out.humidity);
 
   if (status == HAL_OK) {
     out.timestamp_ms = xTaskGetTickCount();
-  } else {
-    // Sentinel values so failure is on screen
-    out.temperature = -1.0f;
-    out.pressure = -1.0f;
-    out.humidity = -1.0f;
-    out.timestamp_ms = 0;
+    return true;
   }
+  return false;
 }
 void SensorTask::postToQueues(const SensorReading_t &r) {
   xQueueOverwrite(xDisplayQueue, &r); // always latest
+  xQueueSend(xCommsQueue, &r, HAL_MAX_DELAY);
 }
 
 void SensorTask::onDMAComplete() {

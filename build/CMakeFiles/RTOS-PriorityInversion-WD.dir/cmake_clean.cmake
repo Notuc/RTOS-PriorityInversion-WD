@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "RTOS-PriorityInversion-WD.map"
+  "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj"
+  "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj"

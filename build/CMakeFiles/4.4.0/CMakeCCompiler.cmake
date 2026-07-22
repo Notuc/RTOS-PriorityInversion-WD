@@ -19,14 +19,14 @@ set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_C_COMPILER_APPLE_SYSROOT "")
 set(CMAKE_C_SIMULATE_VERSION "")
-set(CMAKE_C_COMPILER_ARCHITECTURE_ID "")
+set(CMAKE_C_COMPILER_ARCHITECTURE_ID "armv7")
 
 
 
 
-set(CMAKE_AR "/opt/local/bin/ar")
+set(CMAKE_AR "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-ar")
 set(CMAKE_C_COMPILER_AR "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc-ar")
-set(CMAKE_RANLIB "/opt/local/bin/ranlib")
+set(CMAKE_RANLIB "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-ranlib")
 set(CMAKE_C_COMPILER_RANLIB "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib")
 set(CMAKE_LINKER "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-g++")
 set(CMAKE_LINKER_LINK "")
@@ -54,9 +54,9 @@ set(CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED )
 set(CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED )
 
 # Save compiler ABI information.
-set(CMAKE_C_SIZEOF_DATA_PTR "")
-set(CMAKE_C_COMPILER_ABI "")
-set(CMAKE_C_BYTE_ORDER "")
+set(CMAKE_C_SIZEOF_DATA_PTR "4")
+set(CMAKE_C_COMPILER_ABI "ELF")
+set(CMAKE_C_BYTE_ORDER "LITTLE_ENDIAN")
 set(CMAKE_C_LIBRARY_ARCHITECTURE "")
 
 if(CMAKE_C_SIZEOF_DATA_PTR)

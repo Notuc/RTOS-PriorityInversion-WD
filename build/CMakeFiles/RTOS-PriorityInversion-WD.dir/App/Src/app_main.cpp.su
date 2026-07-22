@@ -1,12 +1,15 @@
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:Task::~Task()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:virtual Task::~Task()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp:10:3:CommsTask::CommsTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/DisplayTask.hpp:8:3:DisplayTask::DisplayTask()	16	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:15:6:void AppInit()	16	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:21:1:void __static_initialization_and_destruction_0()	8	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:19:6:void AppInit()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:26:1:void __static_initialization_and_destruction_0()	8	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp:8:7:CommsTask::~CommsTask()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp:8:7:virtual CommsTask::~CommsTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/DisplayTask.hpp:14:11:DisplayTask::~DisplayTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/DisplayTask.hpp:14:11:virtual DisplayTask::~DisplayTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp:7:7:SensorTask::~SensorTask()	16	static
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp:7:7:virtual SensorTask::~SensorTask()	16	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:21:1:void __static_initialization_and_destruction_1()	8	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:21:1:cpp)	8	static
-/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:21:1:cpp)	8	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:26:1:void __static_initialization_and_destruction_1()	8	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:26:1:cpp)	8	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:26:1:cpp)	8	static

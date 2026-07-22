@@ -15,3 +15,4 @@ void AppInit(void);
 
 // Extern declarations
 extern QueueHandle_t xDisplayQueue;
+extern QueueHandle_t xCommsQueue;
