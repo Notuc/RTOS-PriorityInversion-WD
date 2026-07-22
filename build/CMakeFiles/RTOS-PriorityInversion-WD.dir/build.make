@@ -211,19 +211,19 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.s"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/oled/ssd1306_fonts.c -o CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.s
 
-CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/flags.make
-CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj: /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/bme280.c
-CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj"
-	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj -MF CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj.d -o CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj -c /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/bme280.c
+CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/flags.make
+CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj: /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/bme280/bme280.c
+CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj -MF CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj.d -o CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj -c /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/bme280/bme280.c
 
-CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.i"
-	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/bme280.c > CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.i
+CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/bme280/bme280.c > CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.i
 
-CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.s"
-	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/bme280.c -o CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.s
+CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/bme280/bme280.c -o CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.s
 
 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/flags.make
 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj: /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/CommsTask.cpp
@@ -307,7 +307,7 @@ RTOS__PriorityInversion__WD_OBJECTS = \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/startup_stm32f446xx.s.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj" \
-"CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj" \
+"CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj" \
@@ -334,6 +334,7 @@ RTOS__PriorityInversion__WD_EXTERNAL_OBJECTS = \
 "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" \
 "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
 "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
+"/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" \
 "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
 "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
@@ -356,7 +357,7 @@ RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/startup_stm32f446xx.s.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj
-RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
+RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj
@@ -380,6 +381,7 @@ RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj

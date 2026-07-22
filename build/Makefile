@@ -275,30 +275,6 @@ App/Src/app_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.s
 .PHONY : App/Src/app_main.cpp.s
 
-Core/Src/bme280.obj: Core/Src/bme280.c.obj
-.PHONY : Core/Src/bme280.obj
-
-# target to build an object file
-Core/Src/bme280.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj
-.PHONY : Core/Src/bme280.c.obj
-
-Core/Src/bme280.i: Core/Src/bme280.c.i
-.PHONY : Core/Src/bme280.i
-
-# target to preprocess a source file
-Core/Src/bme280.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.i
-.PHONY : Core/Src/bme280.c.i
-
-Core/Src/bme280.s: Core/Src/bme280.c.s
-.PHONY : Core/Src/bme280.s
-
-# target to generate assembly for a file
-Core/Src/bme280.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.s
-.PHONY : Core/Src/bme280.c.s
-
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
@@ -467,6 +443,30 @@ Core/Src/sysmem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/sysmem.c.s
 .PHONY : Core/Src/sysmem.c.s
 
+Drivers/bme280/bme280.obj: Drivers/bme280/bme280.c.obj
+.PHONY : Drivers/bme280/bme280.obj
+
+# target to build an object file
+Drivers/bme280/bme280.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj
+.PHONY : Drivers/bme280/bme280.c.obj
+
+Drivers/bme280/bme280.i: Drivers/bme280/bme280.c.i
+.PHONY : Drivers/bme280/bme280.i
+
+# target to preprocess a source file
+Drivers/bme280/bme280.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.i
+.PHONY : Drivers/bme280/bme280.c.i
+
+Drivers/bme280/bme280.s: Drivers/bme280/bme280.c.s
+.PHONY : Drivers/bme280/bme280.s
+
+# target to generate assembly for a file
+Drivers/bme280/bme280.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.s
+.PHONY : Drivers/bme280/bme280.c.s
+
 Drivers/oled/ssd1306.obj: Drivers/oled/ssd1306.c.obj
 .PHONY : Drivers/oled/ssd1306.obj
 
@@ -549,9 +549,6 @@ help:
 	@echo "... App/Src/app_main.obj"
 	@echo "... App/Src/app_main.i"
 	@echo "... App/Src/app_main.s"
-	@echo "... Core/Src/bme280.obj"
-	@echo "... Core/Src/bme280.i"
-	@echo "... Core/Src/bme280.s"
 	@echo "... Core/Src/freertos.obj"
 	@echo "... Core/Src/freertos.i"
 	@echo "... Core/Src/freertos.s"
@@ -573,6 +570,9 @@ help:
 	@echo "... Core/Src/sysmem.obj"
 	@echo "... Core/Src/sysmem.i"
 	@echo "... Core/Src/sysmem.s"
+	@echo "... Drivers/bme280/bme280.obj"
+	@echo "... Drivers/bme280/bme280.i"
+	@echo "... Drivers/bme280/bme280.s"
 	@echo "... Drivers/oled/ssd1306.obj"
 	@echo "... Drivers/oled/ssd1306.i"
 	@echo "... Drivers/oled/ssd1306.s"

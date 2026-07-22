@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/cmake_install.cmake",
-		"/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/cmake/stm32cubemx/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -24,6 +24,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/BME280"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Core/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
@@ -37,7 +38,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/bme280.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/bme280.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/freertos.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/freertos.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/main.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/main.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
@@ -45,6 +45,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/stm32f4xx_it.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/stm32f4xx_it.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/syscalls.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/syscalls.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/sysmem.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/sysmem.c.obj.d"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/bme280/bme280.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/bme280/bme280.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/oled/ssd1306.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/oled/ssd1306_fonts.c" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/CommsTask.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/CommsTask.cpp.obj.d"
