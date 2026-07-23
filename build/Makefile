@@ -227,6 +227,30 @@ App/Src/SensorTask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.s
 .PHONY : App/Src/SensorTask.cpp.s
 
+App/Src/StorageTask.obj: App/Src/StorageTask.cpp.obj
+.PHONY : App/Src/StorageTask.obj
+
+# target to build an object file
+App/Src/StorageTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj
+.PHONY : App/Src/StorageTask.cpp.obj
+
+App/Src/StorageTask.i: App/Src/StorageTask.cpp.i
+.PHONY : App/Src/StorageTask.i
+
+# target to preprocess a source file
+App/Src/StorageTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.i
+.PHONY : App/Src/StorageTask.cpp.i
+
+App/Src/StorageTask.s: App/Src/StorageTask.cpp.s
+.PHONY : App/Src/StorageTask.s
+
+# target to generate assembly for a file
+App/Src/StorageTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.s
+.PHONY : App/Src/StorageTask.cpp.s
+
 App/Src/Task.obj: App/Src/Task.cpp.obj
 .PHONY : App/Src/Task.obj
 
@@ -543,6 +567,9 @@ help:
 	@echo "... App/Src/SensorTask.obj"
 	@echo "... App/Src/SensorTask.i"
 	@echo "... App/Src/SensorTask.s"
+	@echo "... App/Src/StorageTask.obj"
+	@echo "... App/Src/StorageTask.i"
+	@echo "... App/Src/StorageTask.s"
 	@echo "... App/Src/Task.obj"
 	@echo "... App/Src/Task.i"
 	@echo "... App/Src/Task.s"

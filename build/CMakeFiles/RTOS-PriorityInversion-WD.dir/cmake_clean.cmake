@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj.d"
+  "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj"
+  "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj"

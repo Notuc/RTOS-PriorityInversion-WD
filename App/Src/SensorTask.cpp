@@ -53,6 +53,7 @@ bool SensorTask::readBME280(SensorReading_t &out) {
 void SensorTask::postToQueues(const SensorReading_t &r) {
   xQueueOverwrite(xDisplayQueue, &r); // always latest
   xQueueSend(xCommsQueue, &r, HAL_MAX_DELAY);
+  xQueueSend(xStorageQueue, &r, HAL_MAX_DELAY);
 }
 
 void SensorTask::onDMAComplete() {

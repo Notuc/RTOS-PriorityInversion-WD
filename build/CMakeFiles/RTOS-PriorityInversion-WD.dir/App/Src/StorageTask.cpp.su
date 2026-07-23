@@ -1,0 +1,16 @@
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:Task::~Task()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp:9:11:virtual Task::~Task()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:29:6:void StorageTask::csLow()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:33:6:void StorageTask::csHigh()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:41:6:void StorageTask::w25q32_WriteEnable()	24	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:48:6:void StorageTask::w25q32_WaitBusy()	24	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:62:6:void StorageTask::w25q32_EraseSector(uint32_t)	24	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:76:6:void StorageTask::w25q32_WritePage(uint32_t, const uint8_t*, uint16_t)	32	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:91:6:void StorageTask::w25q32_ReadPage(uint32_t, uint8_t*, uint16_t)	32	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:109:6:void StorageTask::loadConfig()	272	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:126:6:void StorageTask::persistConfig()	272	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:140:6:bool StorageTask::writePage(const SensorReading_t&)	384	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:166:6:bool StorageTask::checkSPI()	128	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:195:6:virtual void StorageTask::run()	88	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/StorageTask.hpp:19:11:StorageTask::~StorageTask()	16	static
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/StorageTask.hpp:19:11:virtual StorageTask::~StorageTask()	16	static

@@ -216,6 +216,84 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj: /Users/nath
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
 
+CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj: /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorReading.hpp \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/StorageTask.hpp \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/app_main.hpp \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Inc/FreeRTOSConfig.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Inc/main.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Inc/stm32f4xx_hal_conf.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Include/cmsis_version.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Include/core_cm4.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/CMSIS/Include/mpu_armv7.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
+
 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj: /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/Task.cpp \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
@@ -271,6 +349,7 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: /Users/nathan
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/DisplayTask.hpp \
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorReading.hpp \
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorTask.hpp \
+  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/StorageTask.hpp \
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp \
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/app_main.hpp \
   /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Inc/FreeRTOSConfig.h \
@@ -837,10 +916,6 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj: /User
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h:
 
-/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h:
-
-/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_endian.h:
-
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h:
 
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Inc/stm32f4xx_it.h:
@@ -854,6 +929,10 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj: /User
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Core/Src/freertos.c:
 
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp:
+
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/StorageTask.hpp:
+
+/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/errno.h:
 
@@ -1008,6 +1087,10 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/Drivers/oled/ssd1306_fonts.c.obj: /User
 /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h:
+
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_endian.h:
+
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h:
 
