@@ -4,11 +4,13 @@
 #include "app_main.hpp"
 #include "ssd1306.h"
 #include "ssd1306_fonts.h"
+#include "watchdog_bits.hpp"
 #include <stdio.h>
 #include <task.h>
 
-#define WD_BIT_DISPLAY (1 << 1)
-#define REFRESH_RATE_MS 250 // 4 Hz
+#define REFRESH_RATE_MS 250
+
+extern UART_HandleTypeDef huart2;
 
 void DisplayTask::run() {
   ssd1306_Init();
@@ -20,6 +22,7 @@ void DisplayTask::run() {
     // Peek — item stays in queue, no data lost
     if (xQueuePeek(xDisplayQueue, &r, pdMS_TO_TICKS(1000)) == pdPASS) {
       renderOLED(r);
+      xEventGroupSetBits(xWDGroup, WD_BIT_DISPLAY);
     }
     vTaskDelay(pdMS_TO_TICKS(REFRESH_RATE_MS));
   }

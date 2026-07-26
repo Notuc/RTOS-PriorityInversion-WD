@@ -33,8 +33,10 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj: \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/app_main.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306_conf.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
@@ -70,6 +72,7 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/DisplayTask.cpp.obj: \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306_fonts.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/Drivers/OLED/ssd1306.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/watchdog_bits.hpp \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \

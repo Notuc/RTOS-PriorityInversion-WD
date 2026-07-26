@@ -27,9 +27,11 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorReading.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/CommsTask.hpp \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/Task.hpp \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
@@ -71,5 +73,5 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/StorageTask.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/WatchdogTask.hpp \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/watchdog_bits.hpp

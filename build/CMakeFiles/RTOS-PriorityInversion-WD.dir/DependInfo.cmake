@@ -53,6 +53,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/SensorTask.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/StorageTask.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/Task.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj.d"
+  "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/WatchdogTask.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj.d"
   "/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj" "gcc" "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj.d"
   )
 

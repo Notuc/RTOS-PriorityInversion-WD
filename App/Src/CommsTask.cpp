@@ -2,8 +2,8 @@
 #include "app_main.hpp"
 #include "main.h" // huart2 handle
 #include "stm32f4xx_hal.h"
+#include "watchdog_bits.hpp"
 #include <string.h>
-
 extern UART_HandleTypeDef huart1;
 
 void CommsTask::run() {
@@ -11,6 +11,7 @@ void CommsTask::run() {
     SensorReading_t r{};
     xQueueReceive(xCommsQueue, &r, portMAX_DELAY);
     transmit(r);
+    xEventGroupSetBits(xWDGroup, WD_BIT_COMMS);
   }
 }
 // Sending serialise DataFrame_t over UART

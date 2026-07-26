@@ -4,6 +4,7 @@
 #include "main.h"
 #include "stm32f4xx_hal.h"
 #include "task.h"
+#include "watchdog_bits.hpp"
 #include <stdio.h>
 #include <string.h>
 
@@ -156,6 +157,19 @@ void StorageTask::persistConfig() {
 bool StorageTask::writePage(const SensorReading_t &r) {
   // Erase sector if we're entering a new one
   if (writeHead_ % PAGES_PER_SECTOR == 0) {
+    // Every 16 pages the storage task calls w25q32_EraseSector
+    // which takes up to 400ms inside w25q32_WaitBusy. Beacause of this
+    // the storage task misses the watchdog check-in.
+    // so now were erasing the next sector ahead of time, right after
+    // writing the first page of current sector so by the time we need it
+    // the erase is already done.
+    // This huart2 implementation is to check to see witch page triggers the
+    // erase.
+    uint8_t msg[64];
+    snprintf((char *)msg, sizeof(msg),
+             "[Storage] erasing sector %lu (page %lu)\r\n",
+             writeHead_ / PAGES_PER_SECTOR, writeHead_);
+    HAL_UART_Transmit(&huart2, msg, strlen((char *)msg), HAL_MAX_DELAY);
     w25q32_EraseSector(writeHead_);
   }
 
@@ -245,6 +259,7 @@ void StorageTask::run() {
         // Persist write head every write so reboot resumes correctly
         xSemaphoreTake(spiMutex_, portMAX_DELAY);
         persistConfig();
+        xEventGroupSetBits(xWDGroup, WD_BIT_STORAGE);
         xSemaphoreGive(spiMutex_);
       }
     }

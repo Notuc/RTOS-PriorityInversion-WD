@@ -295,10 +295,24 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.s"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/Task.cpp -o CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.s
 
+CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/flags.make
+CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj: /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/WatchdogTask.cpp
+CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj -MF CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj.d -o CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj -c /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/WatchdogTask.cpp
+
+CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/WatchdogTask.cpp > CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.i
+
+CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/WatchdogTask.cpp -o CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.s
+
 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/flags.make
 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp
 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj: CMakeFiles/RTOS-PriorityInversion-WD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj -MF CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj.d -o CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj -c /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Src/app_main.cpp
 
 CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.i: cmake_force
@@ -327,6 +341,7 @@ RTOS__PriorityInversion__WD_OBJECTS = \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj" \
+"CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj" \
 "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj"
 
 # External object files for target RTOS-PriorityInversion-WD
@@ -378,6 +393,7 @@ RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/SensorTask.cpp.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj
+RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -411,7 +427,7 @@ RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/M
 RTOS-PriorityInversion-WD.elf: cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make
 RTOS-PriorityInversion-WD.elf: CMakeFiles/RTOS-PriorityInversion-WD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable RTOS-PriorityInversion-WD.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable RTOS-PriorityInversion-WD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RTOS-PriorityInversion-WD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

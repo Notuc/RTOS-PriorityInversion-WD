@@ -63,5 +63,7 @@ CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/main.c.obj: \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/app_main.hpp \
  /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/App/Inc/SensorReading.hpp \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/nathanngaleu/Documents/Projects/RTOS-PriorityInversion-WD/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

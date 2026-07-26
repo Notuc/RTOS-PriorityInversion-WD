@@ -7,6 +7,7 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_def.h"
 #include "task.h"
+#include "watchdog_bits.hpp"
 
 // Prevent name mangling issue from the c++ complier
 extern "C" {
@@ -42,6 +43,7 @@ void SensorTask::run() {
     SensorReading_t reading{};
     if (readBME280(reading)) {
       postToQueues(reading);
+      xEventGroupSetBits(xWDGroup, WD_BIT_SENSOR);
     }
     vTaskDelay(pdMS_TO_TICKS(SAMPLE_RATE_MS));
   }

@@ -275,6 +275,30 @@ App/Src/Task.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.s
 .PHONY : App/Src/Task.cpp.s
 
+App/Src/WatchdogTask.obj: App/Src/WatchdogTask.cpp.obj
+.PHONY : App/Src/WatchdogTask.obj
+
+# target to build an object file
+App/Src/WatchdogTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj
+.PHONY : App/Src/WatchdogTask.cpp.obj
+
+App/Src/WatchdogTask.i: App/Src/WatchdogTask.cpp.i
+.PHONY : App/Src/WatchdogTask.i
+
+# target to preprocess a source file
+App/Src/WatchdogTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.i
+.PHONY : App/Src/WatchdogTask.cpp.i
+
+App/Src/WatchdogTask.s: App/Src/WatchdogTask.cpp.s
+.PHONY : App/Src/WatchdogTask.s
+
+# target to generate assembly for a file
+App/Src/WatchdogTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RTOS-PriorityInversion-WD.dir/build.make CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.s
+.PHONY : App/Src/WatchdogTask.cpp.s
+
 App/Src/app_main.obj: App/Src/app_main.cpp.obj
 .PHONY : App/Src/app_main.obj
 
@@ -573,6 +597,9 @@ help:
 	@echo "... App/Src/Task.obj"
 	@echo "... App/Src/Task.i"
 	@echo "... App/Src/Task.s"
+	@echo "... App/Src/WatchdogTask.obj"
+	@echo "... App/Src/WatchdogTask.i"
+	@echo "... App/Src/WatchdogTask.s"
 	@echo "... App/Src/app_main.obj"
 	@echo "... App/Src/app_main.i"
 	@echo "... App/Src/app_main.s"

@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/StorageTask.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/Task.cpp.obj.d"
+  "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj"
+  "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/WatchdogTask.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/App/Src/app_main.cpp.obj.d"
   "CMakeFiles/RTOS-PriorityInversion-WD.dir/Core/Src/freertos.c.obj"
