@@ -17,6 +17,8 @@ Built in C++ with CMake. All RTOS primitives — mutexes, queues, event groups, 
 | Raspberry Pi 5 | USART1 | Receives framed sensor data |
 
 ---
+## Hardware Setup
+![Project hardware running](Documentation/IMG/Hardware.jpeg)
 
 ## Task architecture
 
