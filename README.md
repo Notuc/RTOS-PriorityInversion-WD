@@ -18,7 +18,7 @@ Built in C++ with CMake. All RTOS primitives — mutexes, queues, event groups, 
 
 ---
 ## Hardware Setup
-![Project hardware running](Documentation/IMG/Hardware.jpeg)
+<img src="Documentation/IMG/Hardware.jpeg" alt="Project hardware running" width="500">
 
 ## Task architecture
 
