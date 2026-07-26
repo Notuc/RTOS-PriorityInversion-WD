@@ -201,7 +201,6 @@ Flash with STM32CubeProgrammer or OpenOCD:
  openocd -f interface/stlink.cfg -f target/stm32f4x.cfg \
   -c "program RTOS-PriorityInversion-Wd.elf verify reset exit"
 ```
-
 Monitor UART output (115200 8N1):
 
 ```bash
@@ -213,12 +212,13 @@ On Raspberry PI 5:
 ```bash
 cd scripts && cd python
 python ReadSensor.py
+```
 
 ---
 
 ## File structure
 
-```
+```text
 App/
 ├── Inc/
 │   ├── app_main.hpp        # queue/event group handles, AppInit declaration
@@ -248,21 +248,12 @@ Middlewares/                # FreeRTOS — not modified
 
 ## Known limitations and future work
 
-Config sector wear — `persistConfig()` erases and rewrites sector 0 after every flash write.
-
-Writing the BME280 and OlED(SSD1306) Driviers in C++
-
-No hardware IWDG — the software watchdog cannot fire if the FreeRTOS scheduler itself hangs. A production build would run the STM32 Independent Watchdog alongside the software watchdog, with the software watchdog kicking the hardware timer as its check-in mechanism.
-
-Sector erase on critical path — the sector erase fires synchronously before writing the first page of each new sector. A pre-erase scheme — erasing the next sector immediately after entering the current one — would remove the erase latency from the write path entirely.
-
-Single I2C bus — BME280 and SSD1306 share I2C1. The mutex protects correctness but the bus is a serialisation bottleneck. Separate buses or moving the OLED to SPI would allow concurrent access.
-
-STM32 STOP mode between samples current draw measurement (active vs idle vs STOP), Power Budget consderations. 
-
-Typed queue template wrapper, `onStart()` virtual method in task base class.
-
-General C++ task base class improvements
-
-Bluetooh For firmeware updates(maybe might be too out of scope), SQL log on PI5 (maybe might be too out of scope)
-
+* Config sector wear — `persistConfig()` erases and rewrites sector 0 after every flash write.
+* Writing the BME280 and OLED (SSD1306) drivers in C++.
+* No hardware IWDG — the software watchdog cannot fire if the FreeRTOS scheduler itself hangs. A production build would run the STM32 Independent Watchdog alongside the software watchdog, with the software watchdog kicking the hardware timer as its check-in mechanism.
+* Sector erase on critical path — the sector erase fires synchronously before writing the first page of each new sector. A pre-erase scheme — erasing the next sector immediately after entering the current one — would remove the erase latency from the write path entirely.
+* Single I2C bus — BME280 and SSD1306 share I2C1. The mutex protects correctness but the bus is a serialization bottleneck. Separate buses or moving the OLED to SPI would allow concurrent access.
+* STM32 STOP mode between samples current draw measurement (active vs idle vs STOP), power budget considerations.
+* Typed queue template wrapper, `onStart()` virtual method in task base class.
+* General C++ task base class improvements.
+* Bluetooth for firmware updates (maybe might be too out of scope), SQL log on Pi 5 (maybe might be too out of scope).
