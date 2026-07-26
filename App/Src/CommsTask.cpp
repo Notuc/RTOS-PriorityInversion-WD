@@ -13,7 +13,7 @@ void CommsTask::run() {
     transmit(r);
   }
 }
-
+// Sending serialise DataFrame_t over UART
 void CommsTask::transmit(const SensorReading_t &r) {
   uint8_t frame[32];
   uint8_t len = serialise(r, frame);

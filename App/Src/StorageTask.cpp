@@ -7,6 +7,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// Task run() at the bottom
+
 extern SPI_HandleTypeDef hspi2;
 extern UART_HandleTypeDef huart2;
 
@@ -32,8 +34,9 @@ void StorageTask::csHigh() {
 }
 
 // W25Q32  operations
-// NOR flash chips require an explicit Write
-// Enable command before any operation that modifies flash contents
+// NOR flash chips require an explicit write. By default it ignores any write or
+// erase command. Enable command before any operation that modifies flash
+// contents 0x06
 
 void StorageTask::w25q32_WriteEnable() {
   uint8_t cmd = CMD_WRITE_ENABLE;
@@ -43,7 +46,9 @@ void StorageTask::w25q32_WriteEnable() {
 }
 
 // Setting the Busy pit into the status register
-// polls that status register in a loop until the bit clear
+// write takes up to 3ms, sectore erase 400ms. During this time the chip is busy
+// and ignores commands. The status register is the only thing it responds to
+// while busy. polls that status register in a loop until the bit clear
 
 void StorageTask::w25q32_WaitBusy() {
   uint8_t cmd = CMD_READ_STATUS;
@@ -59,6 +64,11 @@ void StorageTask::w25q32_WaitBusy() {
   } while (status & STATUS_BUSY_BIT);
 }
 
+// Cannot erase pages only sectore for nor W25Q32 chips
+// For a NOR flash you can only write by changing bit from 1 to 0;
+// So erase command rests an entier sector (16 pages, 4096bytes)
+// back to all 0xFF every bit becomes 1 again, ready for new writes.
+//
 void StorageTask::w25q32_EraseSector(uint32_t pageAddr) {
   // Convert page address to byte address
   uint32_t byteAddr = pageAddr * 256;
@@ -72,6 +82,10 @@ void StorageTask::w25q32_EraseSector(uint32_t pageAddr) {
   csHigh();
   w25q32_WaitBusy(); // sector erase takes up to 400ms
 }
+
+// Has to be Enable first, then writes
+// pulls cs low, send page cmd,24bit addres, send data bytes, pull cs high,
+// and waits for write to complete
 
 void StorageTask::w25q32_WritePage(uint32_t pageAddr, const uint8_t *data,
                                    uint16_t len) {
@@ -87,7 +101,10 @@ void StorageTask::w25q32_WritePage(uint32_t pageAddr, const uint8_t *data,
   csHigh();
   w25q32_WaitBusy(); // page write takes up to 3ms
 }
-
+// Reads are non-destruve so its much easier.
+// Complete in the time its takes to clock bytes out.
+// the chip whill stream data continoulsy as long as the cs stays
+// low and the clock keeps toggling.
 void StorageTask::w25q32_ReadPage(uint32_t pageAddr, uint8_t *data,
                                   uint16_t len) {
   uint32_t byteAddr = pageAddr * 256;
@@ -103,7 +120,9 @@ void StorageTask::w25q32_ReadPage(uint32_t pageAddr, uint8_t *data,
 }
 
 // Config persistence
-
+// Called at the start of run()
+// Reads page 0 into a FlashConfig_t and checks the magic number.
+// Then writeHead_ goes back to where logging stopped before the last reboot
 void StorageTask::loadConfig() {
   FlashConfig_t cfg{};
   w25q32_ReadPage(CONFIG_PAGE, (uint8_t *)&cfg, sizeof(cfg));
@@ -120,7 +139,8 @@ void StorageTask::loadConfig() {
     persistConfig();
   }
 }
-
+// Erasing the Config Sector, becasue of overwritting an already writing page
+// Erasing the whole sectore 0-15, then rewriting page 0. Also cost 400ms
 void StorageTask::persistConfig() {
   FlashConfig_t cfg{};
   cfg.magic = CONFIG_MAGIC;
@@ -159,6 +179,12 @@ bool StorageTask::writePage(const SensorReading_t &r) {
 
   return true;
 }
+
+// Connectivity Check
+// Checking SPI, 0x9F is a read only command, its asks the chip to identify
+// itself. Three response bytes EF 40 16. Theses are set at the manufacture and
+// never change.
+
 bool StorageTask::checkSPI() {
   uint8_t cmd = 0x9F;
   uint8_t id[3] = {0};
@@ -185,7 +211,6 @@ bool StorageTask::checkSPI() {
 }
 
 // Task entry point
-
 void StorageTask::run() {
   // Initialise mutex
   spiMutex_ = xSemaphoreCreateMutex();
